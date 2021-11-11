@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44134590273DDBDA005402AE /* TradingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4413458F273DDBDA005402AE /* TradingCardView.swift */; };
 		4415F20227398B2A004A07C6 /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415F20127398B2A004A07C6 /* TradingCardsApp.swift */; };
 		4415F20427398B2A004A07C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415F20327398B2A004A07C6 /* ContentView.swift */; };
 		4415F20627398B2D004A07C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4415F20527398B2D004A07C6 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4413458F273DDBDA005402AE /* TradingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardView.swift; sourceTree = "<group>"; };
 		4415F1FE27398B2A004A07C6 /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4415F20127398B2A004A07C6 /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 		4415F20327398B2A004A07C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4413458E273DDBB2005402AE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4413458F273DDBDA005402AE /* TradingCardView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		4415F1F527398B2A004A07C6 = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				4415F20127398B2A004A07C6 /* TradingCardsApp.swift */,
+				448210D5273CBB30009834E3 /* TradingCardListView.swift */,
+				4413458E273DDBB2005402AE /* Shared */,
 				4415F20327398B2A004A07C6 /* ContentView.swift */,
 				4415F20527398B2D004A07C6 /* Assets.xcassets */,
 				4415F20727398B2D004A07C6 /* Preview Content */,
-				448210D5273CBB30009834E3 /* TradingCardListView.swift */,
 			);
 			path = TradingCards;
 			sourceTree = "<group>";
@@ -142,6 +153,7 @@
 			files = (
 				4415F20427398B2A004A07C6 /* ContentView.swift in Sources */,
 				4415F20227398B2A004A07C6 /* TradingCardsApp.swift in Sources */,
+				44134590273DDBDA005402AE /* TradingCardView.swift in Sources */,
 				448210D6273CBB30009834E3 /* TradingCardListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
