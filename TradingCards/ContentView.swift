@@ -98,7 +98,6 @@ Career Ast: 2604
 Games Played: 528
 Career High Pts: 52
 All-NBA: 1
-Active Player = True
 """)
                         .font(.headline)
                     
