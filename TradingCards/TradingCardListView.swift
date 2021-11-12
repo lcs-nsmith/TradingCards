@@ -11,9 +11,10 @@ struct TradingCardListView: View {
     var body: some View {
         ZStack {
             Color("Grey")
+                .edgesIgnoringSafeArea(.all)
             VStack {
                 List {
-                    NavigationLink(destination: ContentView()) {
+                    NavigationLink(destination: IsaiahThomas()) {
                         HStack {
                             Image("IT4face")
                                 .resizable()
@@ -26,7 +27,7 @@ struct TradingCardListView: View {
                                 Text("Isaiah Thomas")
                                     .bold()
                                     .multilineTextAlignment(.leading)
-                                Text("Height: 5,9")
+                                Text("New Orleans Pelicans")
                                     .multilineTextAlignment(.leading)
                                     .font(.callout)
                                 
@@ -34,61 +35,29 @@ struct TradingCardListView: View {
                         }
                     }
                     
-                    //            NavigationLink(destination: SecondFavoriteView()) {
-                    //                HStack {
-                    //                Image("sailingteamtwentytwenty")
-                    //                    .resizable()
-                    //                    .scaledToFill()
-                    //                    .frame(width:30,height:40, alignment: .center)
-                    //                    .clipped()
-                    //                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                    //
-                    //                VStack (alignment: .leading) {
-                    //                    Text("LCS Sailing Team 2020")
-                    //                        .bold()
-                    //                        .multilineTextAlignment(.leading)
-                    //                    Text("My Grade 9 Math Teacher")
-                    //                        .multilineTextAlignment(.leading)
-                    //                }
-                    //                }
-                    //                }
-                    //
-                    //               NavigationLink(destination: ThirdFavoriteView()) {
-                    //            HStack {
-                    //                Image("IT4face")
-                    //                    .resizable()
-                    //                    .scaledToFill()
-                    //                    .frame(width:30,height:40, alignment: .center)
-                    //                    .clipped()
-                    //                    .clipShape(Capsule())
-                    //
-                    //                VStack (alignment: .leading) {
-                    //                    Text("Young Nathan")
-                    //                        .bold()
-                    //                        .multilineTextAlignment(.leading)
-                    //                    Text("Height: 5,9")
-                    //                        .multilineTextAlignment(.leading)
-                    //                        .font(.callout)
-                    //
-                    //                }
-                    //                }
-                    //
-                    //                NavigationLink(destination: FourthFavoriteView()) {
-                    //                    Text("Ryder - Darren Moffat")
-                    //                }
-                    //
-                    //                NavigationLink(destination: FifthFavoriteView()) {
-                    //                    Text("LCS Hockey 2021")
-                    //                }
-                    //
-                    //                NavigationLink(destination: SixthFavoriteView()) {
-                    //                    Text("OG's Advisor Group Gallery")
-                    //                }
+                    NavigationLink(destination: AllenIversonView()) {
+                        HStack {
+                            Image("AIFACE")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width:30,height:40, alignment: .center)
+                                .clipped()
+                                .clipShape(Capsule())
+                            
+                            VStack (alignment: .leading) {
+                                Text("Allen Iverson")
+                                    .bold()
+                                    .multilineTextAlignment(.leading)
+                                Text("Philadelphia 76ers")
+                                    .multilineTextAlignment(.leading)
+                            }
+                        }
+                        
+                    }
                 }
                 .navigationTitle("Best short nba players")
                 
                 Text("                   Statistic Guide                           ")
-                    .background(Color("Grey"))
                     .font(.title)
                 
                 Text("""
@@ -98,7 +67,7 @@ Avg. Apg = Career Average Assists Per Game
 Avg. GmSc = Carer Average GameScore
 Pts = Points
 Ast= Assists
-All-NBA = Number of All-Nba Team Selections
+All-Star Selections = Number of Career All-Star Appearances
 """)
             }
         }
