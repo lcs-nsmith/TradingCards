@@ -97,11 +97,31 @@ struct TradingCardListView: View {
                             }
                         }
                     }
-                }
-                            Text("                   Statistic Guide                           ")
-                                .font(.title)
+                    NavigationLink(destination: ChrisPaulView() .navigationBarHidden(true)) {
+                        HStack {
+                            Image("fork")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width:30,height:40, alignment: .center)
+                                .clipped()
+                                .clipShape(Capsule())
                             
-                            Text("""
+                            VStack (alignment: .leading) {
+                                Text("Chris Paul")
+                                    .bold()
+                                    .multilineTextAlignment(.leading)
+                                Text("Pheonix Suns")
+                                    .multilineTextAlignment(.leading)
+                                    .font(.callout)
+                            }
+                        }
+                    }
+                }
+                    Text("Statistic Guide")
+                        .font(.title)
+                        .multilineTextAlignment(.center)
+                    
+                    Text("""
 *All Career Statistics are calculated from the regular season
 Avg. Ppg = Career Average Points Per Game
 Avg. Apg = Career Average Assists Per Game
@@ -110,16 +130,15 @@ Pts = Points
 Ast= Assists
 All-Star Selections = Number of Career All-Star Appearances
 """)
-                        }
-                    }
                 }
             }
-
-            struct FavoriteThingsListView_Previews: PreviewProvider {
-                static var previews: some View {
-                    NavigationView {
-                        TradingCardListView()
-                            .navigationBarHidden(true)
-                    }
-                }
+        }
+    }
+    struct FavoriteThingsListView_Previews: PreviewProvider {
+        static var previews: some View {
+            NavigationView {
+                TradingCardListView()
+                    .navigationBarHidden(true)
             }
+        }
+    }

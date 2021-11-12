@@ -78,9 +78,9 @@
 				44134591273DE0C3005402AE /* AllenIversonView.swift */,
 				44134593273DF30D005402AE /* CalvinMurphyView.swift */,
 				44134595273DFD47005402AE /* KyleLowryView.swift */,
+				44F3CCE5273ED55000201AB0 /* ChrisPaulView.swift */,
 				4415F20527398B2D004A07C6 /* Assets.xcassets */,
 				4415F20727398B2D004A07C6 /* Preview Content */,
-				44F3CCE5273ED55000201AB0 /* ChrisPaulView.swift */,
 			);
 			path = TradingCards;
 			sourceTree = "<group>";

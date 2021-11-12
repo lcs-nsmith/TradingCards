@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ChrisPaulView: View {
     var body: some View {
-        TradingCardView(teamColourPositive: "Pheonix Black", teamColourNegative: "Pheonix Yellow", playerName: "Chris Paul", playerHeightAndWeight: "'6.0 - 174lbs", teamLogo: "pheonixSuns", playerImage: "CP3", age: 36, position: "Point Guard", careerPointsPerGame: "18.3", careerAssistsPerGame: "9.4", careerAverageGameScore: "18.1", careerPoints: "20,097", careerAssists: "10,377", careerGamesPlayed: "1,099", careerHigh: 43, allStarSelections: 11, writtenBit: "Chris Paul, also known as CP3, is known as one of the best playmakers of all time, he is 3rd on the list of the players with the most assists in the NBA.")
+        TradingCardView(teamColourPositive: "Pheonix Black", teamColourNegative: "Pheonix Yellow", playerName: "Chris Paul", playerHeightAndWeight: "'6.0 - 174lbs", teamLogo: "pheonixSuns", playerImage: "CP3", age: 36, position: "Point Guard", careerPointsPerGame: "18.3", careerAssistsPerGame: "9.4", careerAverageGameScore: "18.1", careerPoints: "20,097", careerAssists: "10,377", careerGamesPlayed: "1,099", careerHigh: 43, allStarSelections: 11, writtenBit: "Chris Paul, also known as CP3, is known as one of the best playmakers of all time, he is 3rd on the list of the players with the most assists in the NBA. In 2021, CP3 lead one of the prime championship contenders in the league, the Pheonix Suns, to the finals. ")
     }
 }
 
