@@ -52,8 +52,28 @@ struct TradingCardListView: View {
                                     .multilineTextAlignment(.leading)
                             }
                         }
-                        
                     }
+                        NavigationLink(destination: CalvinMurphy()) {
+                            HStack {
+                                Image("calvinFace")
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(width:30,height:40, alignment: .center)
+                                    .clipped()
+                                    .clipShape(Capsule())
+                                
+                                VStack (alignment: .leading) {
+                                    Text("Calvin Murphy")
+                                        .bold()
+                                        .multilineTextAlignment(.leading)
+                                    Text("Houston Rockets")
+                                        .multilineTextAlignment(.leading)
+                                        .font(.callout)
+                                    
+                                }
+                            }
+                    }
+                    
                 }
                 .navigationTitle("Best short nba players")
                 
