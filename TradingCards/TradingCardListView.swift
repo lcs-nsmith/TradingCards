@@ -13,8 +13,14 @@ struct TradingCardListView: View {
             Color("Grey")
                 .edgesIgnoringSafeArea(.all)
             VStack {
+                Text("Best Short NBA Players")
+                    .font(.largeTitle)
+                    .fontWeight(.semibold)
+                Text("Tap the UpperDeck™ logo the return to the main menu")
+                    .font(.footnote)
+                    .fontWeight(.medium)
                 List {
-                    NavigationLink(destination: IsaiahThomas()) {
+                    NavigationLink(destination: IsaiahThomas().navigationBarHidden(true)) {
                         HStack {
                             Image("IT4face")
                                 .resizable()
@@ -35,7 +41,7 @@ struct TradingCardListView: View {
                         }
                     }
                     
-                    NavigationLink(destination: AllenIversonView()) {
+                    NavigationLink(destination: AllenIversonView() .navigationBarHidden(true)) {
                         HStack {
                             Image("AIFACE")
                                 .resizable()
@@ -53,34 +59,49 @@ struct TradingCardListView: View {
                             }
                         }
                     }
-                        NavigationLink(destination: CalvinMurphy()) {
-                            HStack {
-                                Image("calvinFace")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width:30,height:40, alignment: .center)
-                                    .clipped()
-                                    .clipShape(Capsule())
-                                
-                                VStack (alignment: .leading) {
-                                    Text("Calvin Murphy")
-                                        .bold()
-                                        .multilineTextAlignment(.leading)
-                                    Text("Houston Rockets")
-                                        .multilineTextAlignment(.leading)
-                                        .font(.callout)
-                                    
-                                }
+                    NavigationLink(destination: CalvinMurphyView() .navigationBarHidden(true)) {
+                        HStack {
+                            Image("calvinFace")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width:30,height:40, alignment: .center)
+                                .clipped()
+                                .clipShape(Capsule())
+                            
+                            VStack (alignment: .leading) {
+                                Text("Calvin Murphy")
+                                    .bold()
+                                    .multilineTextAlignment(.leading)
+                                Text("Houston Rockets")
+                                    .multilineTextAlignment(.leading)
+                                    .font(.callout)
                             }
+                        }
                     }
-                    
+                    NavigationLink(destination: KyleLowryView() .navigationBarHidden(true)) {
+                        HStack {
+                            Image("monday")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width:30,height:40, alignment: .center)
+                                .clipped()
+                                .clipShape(Capsule())
+                            
+                            VStack (alignment: .leading) {
+                                Text("Kyle Lowry")
+                                    .bold()
+                                    .multilineTextAlignment(.leading)
+                                Text("Miami Heat")
+                                    .multilineTextAlignment(.leading)
+                                    .font(.callout)
+                            }
+                        }
+                    }
                 }
-                .navigationTitle("Best short nba players")
-                
-                Text("                   Statistic Guide                           ")
-                    .font(.title)
-                
-                Text("""
+                            Text("                   Statistic Guide                           ")
+                                .font(.title)
+                            
+                            Text("""
 *All Career Statistics are calculated from the regular season
 Avg. Ppg = Career Average Points Per Game
 Avg. Apg = Career Average Assists Per Game
@@ -89,15 +110,16 @@ Pts = Points
 Ast= Assists
 All-Star Selections = Number of Career All-Star Appearances
 """)
+                        }
+                    }
+                }
             }
-        }
-    }
-}
 
-struct FavoriteThingsListView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            TradingCardListView()
-        }
-    }
-}
+            struct FavoriteThingsListView_Previews: PreviewProvider {
+                static var previews: some View {
+                    NavigationView {
+                        TradingCardListView()
+                            .navigationBarHidden(true)
+                    }
+                }
+            }

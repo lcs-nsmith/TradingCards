@@ -9,19 +9,20 @@
 /* Begin PBXBuildFile section */
 		44134590273DDBDA005402AE /* TradingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4413458F273DDBDA005402AE /* TradingCardView.swift */; };
 		44134592273DE0C3005402AE /* AllenIversonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44134591273DE0C3005402AE /* AllenIversonView.swift */; };
-		44134594273DF30D005402AE /* CalvinMurphy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44134593273DF30D005402AE /* CalvinMurphy.swift */; };
+		44134594273DF30D005402AE /* CalvinMurphyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44134593273DF30D005402AE /* CalvinMurphyView.swift */; };
 		44134596273DFD47005402AE /* KyleLowryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44134595273DFD47005402AE /* KyleLowryView.swift */; };
 		4415F20227398B2A004A07C6 /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415F20127398B2A004A07C6 /* TradingCardsApp.swift */; };
 		4415F20427398B2A004A07C6 /* IsaiahThomasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415F20327398B2A004A07C6 /* IsaiahThomasView.swift */; };
 		4415F20627398B2D004A07C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4415F20527398B2D004A07C6 /* Assets.xcassets */; };
 		4415F20927398B2D004A07C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4415F20827398B2D004A07C6 /* Preview Assets.xcassets */; };
 		448210D6273CBB30009834E3 /* TradingCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448210D5273CBB30009834E3 /* TradingCardListView.swift */; };
+		44F3CCE6273ED55000201AB0 /* ChrisPaulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F3CCE5273ED55000201AB0 /* ChrisPaulView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4413458F273DDBDA005402AE /* TradingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardView.swift; sourceTree = "<group>"; };
 		44134591273DE0C3005402AE /* AllenIversonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllenIversonView.swift; sourceTree = "<group>"; };
-		44134593273DF30D005402AE /* CalvinMurphy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalvinMurphy.swift; sourceTree = "<group>"; };
+		44134593273DF30D005402AE /* CalvinMurphyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalvinMurphyView.swift; sourceTree = "<group>"; };
 		44134595273DFD47005402AE /* KyleLowryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyleLowryView.swift; sourceTree = "<group>"; };
 		4415F1FE27398B2A004A07C6 /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4415F20127398B2A004A07C6 /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
@@ -29,6 +30,7 @@
 		4415F20527398B2D004A07C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4415F20827398B2D004A07C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		448210D5273CBB30009834E3 /* TradingCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardListView.swift; sourceTree = "<group>"; };
+		44F3CCE5273ED55000201AB0 /* ChrisPaulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChrisPaulView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +76,11 @@
 				4413458E273DDBB2005402AE /* Shared */,
 				4415F20327398B2A004A07C6 /* IsaiahThomasView.swift */,
 				44134591273DE0C3005402AE /* AllenIversonView.swift */,
-				44134593273DF30D005402AE /* CalvinMurphy.swift */,
+				44134593273DF30D005402AE /* CalvinMurphyView.swift */,
 				44134595273DFD47005402AE /* KyleLowryView.swift */,
 				4415F20527398B2D004A07C6 /* Assets.xcassets */,
 				4415F20727398B2D004A07C6 /* Preview Content */,
+				44F3CCE5273ED55000201AB0 /* ChrisPaulView.swift */,
 			);
 			path = TradingCards;
 			sourceTree = "<group>";
@@ -162,8 +165,9 @@
 			files = (
 				44134596273DFD47005402AE /* KyleLowryView.swift in Sources */,
 				4415F20427398B2A004A07C6 /* IsaiahThomasView.swift in Sources */,
-				44134594273DF30D005402AE /* CalvinMurphy.swift in Sources */,
+				44134594273DF30D005402AE /* CalvinMurphyView.swift in Sources */,
 				4415F20227398B2A004A07C6 /* TradingCardsApp.swift in Sources */,
+				44F3CCE6273ED55000201AB0 /* ChrisPaulView.swift in Sources */,
 				44134590273DDBDA005402AE /* TradingCardView.swift in Sources */,
 				44134592273DE0C3005402AE /* AllenIversonView.swift in Sources */,
 				448210D6273CBB30009834E3 /* TradingCardListView.swift in Sources */,
