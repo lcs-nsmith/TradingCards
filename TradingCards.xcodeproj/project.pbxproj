@@ -12,7 +12,7 @@
 		44134594273DF30D005402AE /* CalvinMurphyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44134593273DF30D005402AE /* CalvinMurphyView.swift */; };
 		44134596273DFD47005402AE /* KyleLowryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44134595273DFD47005402AE /* KyleLowryView.swift */; };
 		4415F20227398B2A004A07C6 /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415F20127398B2A004A07C6 /* TradingCardsApp.swift */; };
-		4415F20427398B2A004A07C6 /* IsaiahThomasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415F20327398B2A004A07C6 /* IsaiahThomasView.swift */; };
+		4415F20427398B2A004A07C6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415F20327398B2A004A07C6 /* DetailView.swift */; };
 		4415F20627398B2D004A07C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4415F20527398B2D004A07C6 /* Assets.xcassets */; };
 		4415F20927398B2D004A07C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4415F20827398B2D004A07C6 /* Preview Assets.xcassets */; };
 		448210D6273CBB30009834E3 /* TradingCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448210D5273CBB30009834E3 /* TradingCardListView.swift */; };
@@ -28,7 +28,7 @@
 		44134595273DFD47005402AE /* KyleLowryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyleLowryView.swift; sourceTree = "<group>"; };
 		4415F1FE27398B2A004A07C6 /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4415F20127398B2A004A07C6 /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
-		4415F20327398B2A004A07C6 /* IsaiahThomasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsaiahThomasView.swift; sourceTree = "<group>"; };
+		4415F20327398B2A004A07C6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		4415F20527398B2D004A07C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4415F20827398B2D004A07C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		448210D5273CBB30009834E3 /* TradingCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardListView.swift; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 				4415F20127398B2A004A07C6 /* TradingCardsApp.swift */,
 				448210D5273CBB30009834E3 /* TradingCardListView.swift */,
 				4413458E273DDBB2005402AE /* Shared */,
-				4415F20327398B2A004A07C6 /* IsaiahThomasView.swift */,
+				4415F20327398B2A004A07C6 /* DetailView.swift */,
 				44134591273DE0C3005402AE /* AllenIversonView.swift */,
 				44134593273DF30D005402AE /* CalvinMurphyView.swift */,
 				44134595273DFD47005402AE /* KyleLowryView.swift */,
@@ -179,7 +179,7 @@
 			files = (
 				44134596273DFD47005402AE /* KyleLowryView.swift in Sources */,
 				449BEB6E2742FFC500FAC8CE /* NavigationListView.swift in Sources */,
-				4415F20427398B2A004A07C6 /* IsaiahThomasView.swift in Sources */,
+				4415F20427398B2A004A07C6 /* DetailView.swift in Sources */,
 				449BEB702743027A00FAC8CE /* TradingCard.swift in Sources */,
 				44134594273DF30D005402AE /* CalvinMurphyView.swift in Sources */,
 				4415F20227398B2A004A07C6 /* TradingCardsApp.swift in Sources */,
