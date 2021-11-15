@@ -20,108 +20,24 @@ struct TradingCardListView: View {
                     .font(.footnote)
                     .fontWeight(.medium)
                 List {
-                    NavigationLink(destination: IsaiahThomas().navigationBarHidden(true)) {
-                        HStack {
-                            Image("IT4face")
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width:30,height:40, alignment: .center)
-                                .clipped()
-                                .clipShape(Capsule())
-                            
-                            VStack (alignment: .leading) {
-                                Text("Isaiah Thomas")
-                                    .bold()
-                                    .multilineTextAlignment(.leading)
-                                Text("New Orleans Pelicans")
-                                    .multilineTextAlignment(.leading)
-                                    .font(.callout)
-                                
-                            }
-                        }
-                    }
                     
-                    NavigationLink(destination: AllenIversonView() .navigationBarHidden(true)) {
-                        HStack {
-                            Image("AIFACE")
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width:30,height:40, alignment: .center)
-                                .clipped()
-                                .clipShape(Capsule())
+                    ForEach(listOfItems) { currentItem in
+                        
+                        NavigationLink(destination: {
                             
-                            VStack (alignment: .leading) {
-                                Text("Allen Iverson")
-                                    .bold()
-                                    .multilineTextAlignment(.leading)
-                                Text("Philadelphia 76ers")
-                                    .multilineTextAlignment(.leading)
-                            }
-                        }
-                    }
-                    NavigationLink(destination: CalvinMurphyView() .navigationBarHidden(true)) {
-                        HStack {
-                            Image("calvinFace")
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width:30,height:40, alignment: .center)
-                                .clipped()
-                                .clipShape(Capsule())
+                            DetailView(item: currentItem)
+                                .navigationBarHidden(true)
                             
-                            VStack (alignment: .leading) {
-                                Text("Calvin Murphy")
-                                    .bold()
-                                    .multilineTextAlignment(.leading)
-                                Text("Houston Rockets")
-                                    .multilineTextAlignment(.leading)
-                                    .font(.callout)
-                            }
-                        }
-                    }
-                    NavigationLink(destination: KyleLowryView() .navigationBarHidden(true)) {
-                        HStack {
-                            Image("monday")
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width:30,height:40, alignment: .center)
-                                .clipped()
-                                .clipShape(Capsule())
-                            
-                            VStack (alignment: .leading) {
-                                Text("Kyle Lowry")
-                                    .bold()
-                                    .multilineTextAlignment(.leading)
-                                Text("Miami Heat")
-                                    .multilineTextAlignment(.leading)
-                                    .font(.callout)
-                            }
-                        }
-                    }
-                    NavigationLink(destination: ChrisPaulView() .navigationBarHidden(true)) {
-                        HStack {
-                            Image("fork")
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width:30,height:40, alignment: .center)
-                                .clipped()
-                                .clipShape(Capsule())
-                            
-                            VStack (alignment: .leading) {
-                                Text("Chris Paul")
-                                    .bold()
-                                    .multilineTextAlignment(.leading)
-                                Text("Pheonix Suns")
-                                    .multilineTextAlignment(.leading)
-                                    .font(.callout)
-                            }
-                        }
+                        }, label: {
+                            NavigationListView(imageName: currentItem.playerFace, playerName: currentItem.playerName, teamName: currentItem.teamName)
+                        })
                     }
                 }
-                    Text("Statistic Guide")
-                        .font(.title)
-                        .multilineTextAlignment(.center)
-                    
-                    Text("""
+                Text("Statistic Guide")
+                    .font(.title)
+                    .multilineTextAlignment(.center)
+                
+                Text("""
 *All Career Statistics are calculated from the regular season
 Avg. Ppg = Career Average Points Per Game
 Avg. Apg = Career Average Assists Per Game
@@ -130,10 +46,10 @@ Pts = Points
 Ast= Assists
 All-Star Selections = Number of Career All-Star Appearances
 """)
-                }
             }
         }
     }
+}
     struct FavoriteThingsListView_Previews: PreviewProvider {
         static var previews: some View {
             NavigationView {

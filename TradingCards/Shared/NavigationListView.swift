@@ -14,7 +14,7 @@ struct NavigationListView: View {
     let teamName: String
     
     var body: some View {
-        NavigationLink(destination: AllenIversonView() .navigationBarHidden(true)) {
+        NavigationLink(destination: PlaceholderView() .navigationBarHidden(true)) {
             HStack {
                 Image(imageName)
                     .resizable()

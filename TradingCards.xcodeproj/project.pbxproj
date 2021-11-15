@@ -15,6 +15,7 @@
 		448210D6273CBB30009834E3 /* TradingCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448210D5273CBB30009834E3 /* TradingCardListView.swift */; };
 		449BEB6E2742FFC500FAC8CE /* NavigationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449BEB6D2742FFC500FAC8CE /* NavigationListView.swift */; };
 		449BEB702743027A00FAC8CE /* TradingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449BEB6F2743027A00FAC8CE /* TradingCard.swift */; };
+		449BEB7227430F0200FAC8CE /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449BEB7127430F0200FAC8CE /* PlaceholderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		448210D5273CBB30009834E3 /* TradingCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardListView.swift; sourceTree = "<group>"; };
 		449BEB6D2742FFC500FAC8CE /* NavigationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationListView.swift; sourceTree = "<group>"; };
 		449BEB6F2743027A00FAC8CE /* TradingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCard.swift; sourceTree = "<group>"; };
+		449BEB7127430F0200FAC8CE /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			children = (
 				4413458F273DDBDA005402AE /* TradingCardView.swift */,
 				449BEB6D2742FFC500FAC8CE /* NavigationListView.swift */,
+				449BEB7127430F0200FAC8CE /* PlaceholderView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				449BEB702743027A00FAC8CE /* TradingCard.swift in Sources */,
 				4415F20227398B2A004A07C6 /* TradingCardsApp.swift in Sources */,
 				44134590273DDBDA005402AE /* TradingCardView.swift in Sources */,
+				449BEB7227430F0200FAC8CE /* PlaceholderView.swift in Sources */,
 				448210D6273CBB30009834E3 /* TradingCardListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
