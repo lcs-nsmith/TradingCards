@@ -71,9 +71,9 @@
 		4415F20027398B2A004A07C6 /* TradingCards */ = {
 			isa = PBXGroup;
 			children = (
-				449BEB6C2742FF7500FAC8CE /* Model */,
 				4415F20127398B2A004A07C6 /* TradingCardsApp.swift */,
 				448210D5273CBB30009834E3 /* TradingCardListView.swift */,
+				449BEB6C2742FF7500FAC8CE /* Model */,
 				4413458E273DDBB2005402AE /* Shared */,
 				4415F20327398B2A004A07C6 /* DetailView.swift */,
 				4415F20527398B2D004A07C6 /* Assets.xcassets */,
